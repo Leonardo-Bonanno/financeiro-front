@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Excel amiguinho</title>
+  <link rel="icon" href="assets/icon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>
+          <img src="assets/icon.png" alt="Ícone" class="titulo-icone" />
+          Excel amiguinho
+        </h1>
+      </header>
+      
+
+  <main>
+    <!-- Seção de Resumo -->
+    <section class="resumo-section">
+      <div class="resumo-card" id="resumo-entradas">Entradas: R$ 0,00</div>
+      <div class="resumo-card" id="resumo-saidas">Saídas: R$ 0,00</div>
+      <div class="resumo-card" id="resumo-lucro">Lucro: R$ 0,00</div>
+    </section>
+
+    <!-- Seção da Tabela -->
+    <section class="transacoes-section">
+      <table>
+        <thead>
+          <tr>
+            <th>Data</th>
+            <th>Tipo</th>
+            <th>Categoria</th>
+            <th>Descrição</th>
+            <th>Valor</th>
+            <th><button id="abrir-adc">+</button></th>
+          </tr>
+        </thead>
+        <tbody id="tabela-transacoes">
+          <!-- Preenchido via JS -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- Modal Adição -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="fechar-modal" class="close">&times;</span>
+      <h2>Nova Transação</h2>
+      <form id="form-transacao">
+        <label for="tipo">Tipo:</label>
+        <select id="tipo" name="tipo" required>
+          <option value="" selected disabled hidden>Selecione...</option>
+          <option value="entrada">Entrada</option>
+          <option value="saida">Saída</option>
+        </select>
+
+        <label for="categoria">Categoria:</label>
+        <select id="categoria" name="categoria" disabled required>
+          <option value="" selected disabled hidden>Selecione o tipo primeiro</option>
+        </select>
+
+        <label for="valor">Valor:</label>
+        <input type="number" id="valor" name="valor" step="0.01" required />
+
+        <label for="descricao">Descrição:</label>
+        <input type="text" id="descricao" name="descricao" required />
+
+        <button type="submit">Adicionar</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal Excluir -->
+  <div id="modal-excluir" class="modal hidden">
+    <div class="modal-content">
+      <span id="fechar-modal-excluir" class="close">&times;</span>
+      <h2>Tem certeza que deseja excluir esta transação?</h2>
+      <button id="confirmar-exclusao">Excluir</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body
