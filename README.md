@@ -1,28 +1,24 @@
-# 📘 Controle financeiro (front-end)
+# 📘 Sistema Financeiro - Front-end
 
-Projeto acadêmico desenvolvido como parte de atividades da disciplina de **Processamento de Imagens**.
+Projeto acadêmico desenvolvido como parte de atividades da disciplina de **Tópicos avançados em SISTEMAS DE informação**.
 
 ## 🎯 Objetivo
 
-Este repositório contém um projeto simples de **leitura de placas de veículos em imagens** utilizando técnicas de processamento de imagem e reconhecimento óptico de caracteres (OCR). A ideia é identificar e extrair o texto das placas presentes nas imagens.
+Este repositório contém o **front-end de um sistema de controle financeiro**, permitindo o registro de entradas (receitas) e saídas (despesas), além da visualização de informações financeiras de forma organizada.
+
+O objetivo do projeto foi adicionar uma interface ao back-end, que era o foco do projeto .
 
 ## 🛠 Tecnologias Utilizadas
 
-- Python
-- Jupyter Notebook
-- Bibliotecas de processamento de imagem (como OpenCV e OCR)
+- HTML
+- CSS
+- JavaScript
 
 ## ▶️ Como Executar
 
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/Leonardo-Bonanno/Leitura-placas.git
-   ```
-2. Abra o notebook:
-
-Abra o arquivo Proc_img_Projeto.ipynb em um ambiente que suporte Jupyter Notebooks (ex.: VS Code, JupyterLab, Google Colab).
-
-3. Execute as células do notebook para processar as imagens e testar a leitura de placas.
+1. Clone o repositório a partir do GitHub.
+2. Abra a pasta do projeto.
+3. Execute o arquivo index.html diretamente no navegador.
 
 ---
-Este projeto foi criado para fins acadêmicos e de aprendizado sobre processamento de imagem e reconhecimento de caracteres.
+Este projeto foi criado para fins acadêmicos.
