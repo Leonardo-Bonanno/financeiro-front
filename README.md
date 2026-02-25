@@ -6,7 +6,7 @@ Projeto acadêmico desenvolvido como parte de atividades da disciplina de **Tóp
 
 Este repositório contém o **front-end de um sistema de controle financeiro**, permitindo o registro de entradas (receitas) e saídas (despesas), além da visualização de informações financeiras de forma organizada.
 
-O objetivo do projeto foi adicionar uma interface ao back-end, que era o foco do projeto .
+O objetivo do projeto foi adicionar uma interface ao back-end, que era o foco do projeto (https://github.com/Leonardo-Bonanno/financeiro-back).
 
 ## 🛠 Tecnologias Utilizadas
 
